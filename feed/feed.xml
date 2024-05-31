@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
-	<title>Eleventy Base Blog v8</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	<link href="https://example.com/blog_genesofthrones.com/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/blog_genesofthrones.com/"/>
+	<title>Genes Of Thrones Blog	</title>
+	<subtitle>Welcome to Genes of Thrones, an epic saga where ancient power struggles meet cutting-edge genetics. Dive into the captivating world of Genoria, a kingdom where the fate of noble houses is determined not only by their lineage but by their unique genetic traits.</subtitle>
+	<link href="https://genesofthrones.com/blog_genesofthrones.com/feed/feed.xml" rel="self"/>
+	<link href="https://genesofthrones.com/blog_genesofthrones.com/"/>
 	<updated>2024-05-22T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<id>https://genesofthrones.com/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Dr Mendel</name>
+		<email></email>
 	</author>
 	
 	<entry>
 		<title>Healing Powers. The Regenerative Traits of House Cytos</title>
-		<link href="https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html"/>
+		<link href="https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html"/>
 		<updated>2024-05-22T00:00:00Z</updated>
-		<id>https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html</id>
+		<id>https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html</id>
 		<content type="html">&lt;p&gt;Welcome back to the &lt;strong&gt;Genes of Thrones&lt;/strong&gt; blog! In this post, we delve into the extraordinary regenerative and healing abilities of House Cytos. Explore the genetic foundations of these traits and their crucial role in maintaining the health and stability of Genoria.&lt;/p&gt;
-&lt;h2 id=&quot;the-healers-of-genoria&quot; tabindex=&quot;-1&quot;&gt;The Healers of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-healers-of-genoria&quot; tabindex=&quot;-1&quot;&gt;The Healers of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Cytos is revered for its members&#39; unparalleled regenerative capabilities and healing powers. These genetic traits enable them to recover from injuries rapidly and maintain exceptional health, making them the kingdom&#39;s primary healers and medical experts.&lt;/p&gt;
-&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Cell Regeneration&lt;/strong&gt;&lt;/p&gt;
@@ -43,23 +43,23 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;house-cytos-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Cytos in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;house-cytos-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Cytos in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In Genoria, the members of House Cytos are essential for the wellbeing of the kingdom. Their ability to heal and regenerate makes them indispensable in times of war and peace. They serve as physicians, healers, and advisors on health-related matters, using their genetic gifts to ensure the prosperity of their people.&lt;/p&gt;
-&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The regenerative traits of House Cytos are inspired by ongoing scientific research in the fields of regenerative medicine and genetics:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;LIN28A&lt;/strong&gt;: Studies have shown that this gene can enhance tissue repair and regeneration, offering potential treatments for injuries and degenerative diseases.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;FOXO3&lt;/strong&gt;: This gene is linked to increased lifespan and resistance to diseases, providing insights into the biology of aging.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Immune Genes&lt;/strong&gt;: Understanding how genes like &lt;strong&gt;IL10&lt;/strong&gt; and &lt;strong&gt;TNF&lt;/strong&gt; regulate the immune response can lead to better treatments for inflammatory and autoimmune conditions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The genetic enhancement of healing and regenerative abilities raises important ethical questions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Access to Treatment&lt;/strong&gt;: Ensuring equitable access to regenerative therapies and technologies is a significant concern.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Potential for Misuse&lt;/strong&gt;: The ability to regenerate tissues could be misused for purposes beyond healing, such as enhancing physical abilities or extending life unnaturally.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Long-Term Effects&lt;/strong&gt;: The long-term consequences of genetic enhancements on health and longevity need thorough examination.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/healing-powers-the-regenerative-traits-of-house-cytos.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Cytos embodies the potential of genetic traits to transform health and healing. Their regenerative powers highlight the possibilities within our own genetic makeup and the future of medical science. As we continue to explore the world of &lt;strong&gt;Genes of Thrones&lt;/strong&gt;, we will uncover more about how genetics influence the lives and destinies of the characters in Genoria.&lt;/p&gt;
 &lt;p&gt;Stay tuned for more insights and stories from the world of &lt;strong&gt;Genes of Thrones&lt;/strong&gt;!&lt;/p&gt;
 &lt;hr&gt;
@@ -70,13 +70,13 @@
 	
 	<entry>
 		<title>Intellectual Prowess. The Genius of House Genome</title>
-		<link href="https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html"/>
+		<link href="https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html"/>
 		<updated>2024-05-15T00:00:00Z</updated>
-		<id>https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html</id>
+		<id>https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html</id>
 		<content type="html">&lt;p&gt;Welcome back to the &lt;strong&gt;Genes of Thrones&lt;/strong&gt; blog! In this post, we explore the intellectual prowess of House Genome, known for their unmatched cognitive abilities and strategic minds. Discover the genetic factors that contribute to their brilliance and how these traits shape their role in Genoria.&lt;/p&gt;
-&lt;h2 id=&quot;the-brains-of-genoria&quot; tabindex=&quot;-1&quot;&gt;The Brains of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-brains-of-genoria&quot; tabindex=&quot;-1&quot;&gt;The Brains of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Genome members are celebrated for their exceptional intellect and strategic acumen. Their genetic predisposition towards intelligence and analytical thinking positions them as the kingdom’s foremost scholars, diplomats, and strategists.&lt;/p&gt;
-&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Cognitive Abilities&lt;/strong&gt;&lt;/p&gt;
@@ -100,23 +100,23 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;house-genome-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Genome in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;house-genome-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Genome in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In Genoria, House Genome&#39;s intellectual prowess places them at the center of political and academic life. They serve as advisors to the monarchy, negotiators in diplomatic missions, and leaders in scientific research. Their strategic minds are instrumental in shaping the policies and direction of the kingdom.&lt;/p&gt;
-&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The intellectual traits of House Genome are grounded in real-world genetic research:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;BDNF&lt;/strong&gt;: This gene is vital for neuronal growth and cognitive function, with higher levels associated with improved memory and learning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;COMT&lt;/strong&gt;: Variants of this gene can affect cognitive performance under stress, highlighting the complex interaction between genetics and environment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Synaptic Plasticity&lt;/strong&gt;: Genes like &lt;strong&gt;NRG1&lt;/strong&gt; are crucial for the brain&#39;s ability to adapt and form new connections, underlying the capacity for learning and memory.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The genetic enhancement of cognitive abilities raises several ethical questions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Equity and Access&lt;/strong&gt;: The potential for genetic enhancement could create disparities in intellectual capabilities, leading to societal inequalities.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Privacy and Consent&lt;/strong&gt;: The implications of knowing one&#39;s genetic predisposition to cognitive traits bring up issues of genetic privacy and the right to not know.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Nature vs. Nurture&lt;/strong&gt;: The debate continues over the influence of genetics versus environment in shaping intelligence and how interventions might shift this balance.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/intellectual-prowess-the-genius-of-house-genome.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Genome exemplifies the heights of intellectual achievement through the lens of genetics. Their brilliance is a testament to the potential of cognitive-enhancing genetic traits. As we continue to explore the world of &lt;strong&gt;Genes of Thrones&lt;/strong&gt;, we&#39;ll gain deeper insights into how genetics influence not only individual destinies but the fate of entire kingdoms.&lt;/p&gt;
 &lt;p&gt;Stay tuned for our next post, where we uncover the healing powers and regenerative traits of House Cytos!&lt;/p&gt;
 &lt;hr&gt;
@@ -127,13 +127,13 @@
 	
 	<entry>
 		<title>Bioengineering Wonders. The Innovations of House Mendel</title>
-		<link href="https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html"/>
+		<link href="https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html"/>
 		<updated>2024-05-08T00:00:00Z</updated>
-		<id>https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html</id>
+		<id>https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html</id>
 		<content type="html">&lt;p&gt;Welcome back to the &lt;strong&gt;Genes of Thrones&lt;/strong&gt; blog! In this post, we explore the fascinating world of House Mendel, the masters of bioengineering and genetic manipulation. Discover the groundbreaking advancements in genetic technology that inspire their role in Genoria and the ethical dilemmas these innovations entail.&lt;/p&gt;
-&lt;h2 id=&quot;the-pioneers-of-genetic-innovation&quot; tabindex=&quot;-1&quot;&gt;The Pioneers of Genetic Innovation &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-pioneers-of-genetic-innovation&quot; tabindex=&quot;-1&quot;&gt;The Pioneers of Genetic Innovation &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Mendel is renowned for its unparalleled expertise in bioengineering and genetic manipulation. Their innovative approaches have significantly shaped the society of Genoria, providing enhancements that range from disease resistance to superior cognitive abilities.&lt;/p&gt;
-&lt;h3 id=&quot;key-innovations&quot; tabindex=&quot;-1&quot;&gt;Key Innovations &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;key-innovations&quot; tabindex=&quot;-1&quot;&gt;Key Innovations &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;CRISPR and Gene Editing&lt;/strong&gt;&lt;/p&gt;
@@ -157,23 +157,23 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;house-mendel-s-role-in-genoria&quot; tabindex=&quot;-1&quot;&gt;House Mendel&#39;s Role in Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;house-mendel-s-role-in-genoria&quot; tabindex=&quot;-1&quot;&gt;House Mendel&#39;s Role in Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In Genoria, the contributions of House Mendel are both revered and feared. Their ability to manipulate life at a fundamental level gives them immense power and influence. However, their practices also raise significant ethical concerns and spark conflicts with other houses that prioritize natural genetic heritage.&lt;/p&gt;
-&lt;h2 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;ethical-considerations&quot; tabindex=&quot;-1&quot;&gt;Ethical Considerations &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The ethical implications of House Mendel&#39;s work are profound. Here are some of the key dilemmas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Genetic Equity&lt;/strong&gt;: The ability to enhance genetics could create a divide between those who can afford such modifications and those who cannot, leading to genetic inequality.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Consent and Autonomy&lt;/strong&gt;: The ethics of making genetic changes, especially for future generations who cannot consent to these modifications, is a contentious issue.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Playing God&lt;/strong&gt;: The philosophical and moral questions of whether humans should have the power to alter life so fundamentally are central to the debate about bioengineering.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The advancements attributed to House Mendel are inspired by real-world technologies and ongoing research:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;CRISPR&lt;/strong&gt;: In our world, CRISPR is a revolutionary tool for gene editing, with potential applications ranging from curing genetic diseases to creating genetically modified organisms.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Synthetic Biology&lt;/strong&gt;: Researchers are exploring the creation of synthetic organisms to produce medicines, biofuels, and other valuable substances.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Regenerative Medicine&lt;/strong&gt;: Stem cell research and tissue engineering are advancing toward regenerating damaged tissues and organs, holding promise for treating a variety of medical conditions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/bioengineering-wonders-the-innovations-of-house-mendel.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Mendel embodies the potential and the perils of genetic innovation. Their work pushes the boundaries of science and ethics, raising questions about the future of human enhancement and the role of genetics in society. As we continue our journey through the world of &lt;strong&gt;Genes of Thrones&lt;/strong&gt;, we&#39;ll uncover more about how these advancements impact the characters and the kingdom of Genoria.&lt;/p&gt;
 &lt;p&gt;Join us next time as we delve into the intellectual prowess of House Genome and uncover the genetic secrets behind their strategic brilliance!&lt;/p&gt;
 &lt;hr&gt;
@@ -184,14 +184,14 @@
 	
 	<entry>
 		<title>The Strength of House-Helix. Genetic Traits of Endurance and Power</title>
-		<link href="https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html"/>
+		<link href="https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html"/>
 		<updated>2021-06-19T00:00:00Z</updated>
-		<id>https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html</id>
+		<id>https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html</id>
 		<content type="html">&lt;div class=&quot;lead&quot;&gt;
 &lt;p&gt;Welcome to the first post in our &lt;strong&gt;Genes of Thrones&lt;/strong&gt; blog series! Today, we explore the remarkable genetic traits of House Helix, renowned for their unparalleled physical strength and endurance. These traits make them the formidable warriors and protectors of the kingdom of Genoria.&lt;/p&gt;
-&lt;h2 id=&quot;unraveling-the-genetic-strength&quot; tabindex=&quot;-1&quot;&gt;Unraveling the Genetic Strength &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;unraveling-the-genetic-strength&quot; tabindex=&quot;-1&quot;&gt;Unraveling the Genetic Strength &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;House Helix members are famed for their extraordinary physical capabilities, which are deeply rooted in their genetic makeup. Let&#39;s delve into the specific genes and traits that contribute to their strength and endurance:&lt;/p&gt;
-&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;key-genetic-traits&quot; tabindex=&quot;-1&quot;&gt;Key Genetic Traits &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Muscle Mass and Strength&lt;/strong&gt;&lt;/p&gt;
@@ -216,9 +216,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;house-helix-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Helix in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;house-helix-in-the-world-of-genoria&quot; tabindex=&quot;-1&quot;&gt;House Helix in the World of Genoria &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In Genoria, the members of House Helix are revered for their strength and endurance. They serve as the kingdom&#39;s frontline defenders, tasked with protecting their people from external threats and maintaining order within the realm. Their genetic traits not only make them formidable in battle but also exemplary leaders in physical challenges and endurance tests.&lt;/p&gt;
-&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;real-world-parallels&quot; tabindex=&quot;-1&quot;&gt;Real-World Parallels &lt;a class=&quot;header-anchor&quot; href=&quot;https://genesofthrones.com/blog_genesofthrones.com/blog/the-strength-of-house-helix-genetic-traits-of-endurance-and-power.html&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The genetic traits of House Helix are inspired by real-world genetics and athletic performance studies. For instance, athletes with certain variants of the &lt;strong&gt;ACTN3&lt;/strong&gt; gene have shown superior sprinting and power capabilities. Similarly, endurance athletes often possess genetic variatio&lt;/p&gt;
 &lt;/div&gt;</content>
 	</entry>
