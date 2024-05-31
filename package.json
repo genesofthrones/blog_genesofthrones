@@ -4,7 +4,6 @@
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
-		"add-domain": "echo 'genesofthrones.com' > build/CNAME",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
