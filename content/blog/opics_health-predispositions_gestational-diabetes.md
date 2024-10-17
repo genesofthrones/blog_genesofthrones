@@ -4,7 +4,7 @@ description: Unravel the genetic connections of gestational diabetes and how tes
 tags: ["health", "genetics", "personal genomics"]
 date: 2023-10-06
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

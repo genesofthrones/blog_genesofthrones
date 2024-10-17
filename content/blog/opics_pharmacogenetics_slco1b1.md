@@ -4,7 +4,7 @@ description: Understanding how the SLCO1B1 gene can influence medication process
 tags: ["health", "genetics", "pharmacogenetics"]  
 date: 2023-10-10  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

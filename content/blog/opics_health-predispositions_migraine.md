@@ -4,7 +4,7 @@ description: Exploring the genetic factors behind migraine headaches and how gen
 tags: ["post", "health", "migraine"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

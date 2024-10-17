@@ -4,7 +4,7 @@ description: A dive into beta thalassemia, its genetic underpinnings, and how yo
 tags: ["post", "genetics", "health"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

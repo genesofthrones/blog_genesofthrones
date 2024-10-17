@@ -4,7 +4,7 @@ description: Ever wondered about the genetics behind your toe length? We'll dive
 tags: ["post", "genetics", "toe length"]
 date: 2023-10-02
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

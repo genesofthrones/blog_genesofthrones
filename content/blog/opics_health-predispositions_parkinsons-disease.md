@@ -4,7 +4,7 @@ description: Explore how genetics play a role in Parkinson's Disease and how the
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-05
 luogo: Venice
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

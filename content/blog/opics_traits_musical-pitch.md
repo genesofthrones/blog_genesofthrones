@@ -4,7 +4,7 @@ description: Discover the link between genetics and your musical abilities. Can 
 tags: ["music", "genetics", "traits"]
 date: 2023-10-12
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Uncover how genetics plays a role in G6PD deficiency and the benefi
 tags: ["genetics", "health", "G6PD deficiency"]
 date: 2023-10-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

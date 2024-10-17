@@ -4,7 +4,7 @@ description: *Join us in the fight against essential thrombocythemia! Your genet
 tags: ["post", "genetics", "health"]
 date: 2023-10-19
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

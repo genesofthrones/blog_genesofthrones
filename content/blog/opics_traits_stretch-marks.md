@@ -4,7 +4,7 @@ description: A deep dive into the genetic factors behind stretch marks and how y
 tags: ["post", "genetics", "health"]
 date: 2023-10-12
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

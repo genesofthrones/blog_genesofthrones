@@ -4,7 +4,7 @@ description: Discover how contributing to genetic research on depression and bip
 tags: ["post", "health"]
 date: 2023-10-24
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

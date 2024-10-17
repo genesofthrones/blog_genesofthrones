@@ -4,7 +4,7 @@ description: Discover the genetics behind cleft chins and how it reflects our an
 tags: ["genetics", "traits", "23andMe"]
 date: 2023-10-14
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

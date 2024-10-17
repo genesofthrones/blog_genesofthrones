@@ -4,7 +4,7 @@ description: Exploring the genetic ties to Atrial Fibrillation and how 23andMe c
 tags: ["health", "genetics", "personal genomics"]
 date: 2023-10-17
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

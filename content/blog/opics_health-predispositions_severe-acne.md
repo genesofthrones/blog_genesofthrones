@@ -4,7 +4,7 @@ description: Exploring the genetic links to severe acne and how 23andMe can help
 tags: ["health", "genetics", "acne"]
 date: 2023-10-05
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Exploring the genetic factors of gout and how you can leverage pers
 tags: ["health", "genetics", "personal genomics"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

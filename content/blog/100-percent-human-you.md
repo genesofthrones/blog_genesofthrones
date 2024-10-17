@@ -4,7 +4,7 @@ description: Explore the power of genetics in understanding our shared humanity 
 tags: ["post", "personal"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

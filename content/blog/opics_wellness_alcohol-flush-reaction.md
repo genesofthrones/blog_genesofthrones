@@ -4,7 +4,7 @@ description: How genetic traits and a bit of tech trouble can spice up our story
 tags: ["post", "tech", "genetics"]
 date: 2024-05-16
 luogo: Everywhere
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

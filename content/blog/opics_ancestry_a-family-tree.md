@@ -4,7 +4,7 @@ description: Discover your roots and uncover hidden relatives with 23andMe's fam
 tags: ["post", "genealogy", "family tree"]  
 date: 2021-07-15  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

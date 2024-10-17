@@ -4,7 +4,7 @@ description: Explore how your genes might play a role in Obstructive Sleep Apnea
 tags: ["health", "genetics", "sleep", "personal"]
 date: 2023-10-09
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

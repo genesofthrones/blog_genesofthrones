@@ -4,7 +4,7 @@ description: Explore the fascinating genetic link behind back hair growth and ho
 tags: ["post", "genetics", "23andMe"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

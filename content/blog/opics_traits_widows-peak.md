@@ -4,7 +4,7 @@ description: Exploring the genetics behind the iconic widow's peak hairline and 
 tags: ["genetics", "traits", "personal"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

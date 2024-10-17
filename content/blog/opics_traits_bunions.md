@@ -4,7 +4,7 @@ description: Discover how genetics, along with other factors, influences the for
 tags: ["health", "genetics", "traits"]
 date: 2023-10-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

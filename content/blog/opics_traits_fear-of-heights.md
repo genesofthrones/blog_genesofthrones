@@ -4,7 +4,7 @@ description: Let's explore how genetics could be the reason behind your fear of 
 tags: ["post", "personal", "genetics"]
 date: 2023-10-04
 luogo: King's Landing
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

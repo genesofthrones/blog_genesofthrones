@@ -4,7 +4,7 @@ description: Explore how you can make a difference in rare disease research thro
 tags: ["research", "23andMe", "genetics", "health"]
 date: 2023-10-11
 luogo: Middle Earth
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

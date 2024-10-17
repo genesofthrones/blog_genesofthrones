@@ -4,7 +4,7 @@ description: Discover how your genetics might just hold the key to your perfect 
 tags: ["post", "personal"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

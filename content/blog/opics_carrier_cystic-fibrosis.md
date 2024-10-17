@@ -4,7 +4,7 @@ description: Exploring cystic fibrosis, its genetic implications, and how 23andM
 tags: ["post", "health", "genetics"]  
 date: 2023-10-06  
 luogo: Kingdom of Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

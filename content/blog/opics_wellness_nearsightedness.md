@@ -4,7 +4,7 @@ description: Explore the genetic underpinnings of nearsightedness and how the 23
 tags: ["health", "genetics", "nearsightedness"]
 date: 2023-10-20
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

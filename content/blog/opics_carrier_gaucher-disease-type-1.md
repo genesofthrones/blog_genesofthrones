@@ -4,7 +4,7 @@ description: Understanding Gaucher Disease and how it connects to personal genom
 tags: ["post", "personal", "genetics"]  
 date: 2023-10-03  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

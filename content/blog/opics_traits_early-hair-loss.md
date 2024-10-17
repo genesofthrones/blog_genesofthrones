@@ -4,7 +4,7 @@ description: Discover the genetic reasons behind early hair loss and how you can
 tags: ["post", "genetics", "hair loss"]
 date: 2023-10-13
 luogo: Genoa
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

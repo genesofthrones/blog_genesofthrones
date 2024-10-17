@@ -4,7 +4,7 @@ description: Discover the genetic link to kidney stones and how 23andMe can help
 tags: ["health", "genetics"]
 date: 2023-10-23
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

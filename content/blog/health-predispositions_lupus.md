@@ -4,7 +4,7 @@ description: Discover how lupus connects to genetics and how 23andMe can help sh
 tags: ["health", "genetics", "lupus"]
 date: 2023-10-08
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

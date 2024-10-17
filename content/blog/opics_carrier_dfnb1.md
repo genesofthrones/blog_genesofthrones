@@ -4,7 +4,7 @@ description: Explore the genetics behind DFNB1 and how you can check your carrie
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

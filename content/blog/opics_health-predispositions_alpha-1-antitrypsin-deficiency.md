@@ -4,7 +4,7 @@ description: Understanding the genetic basis of AAT deficiency and how 23andMe c
 tags: ["health", "genetics"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

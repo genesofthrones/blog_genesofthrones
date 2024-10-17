@@ -4,7 +4,7 @@ description: Exploring ARPKD and how 23andMe can help you understand your geneti
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-18
 luogo: N/A
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

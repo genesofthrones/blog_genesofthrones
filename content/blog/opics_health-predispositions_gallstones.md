@@ -4,7 +4,7 @@ description: Explore the genetic connection to gallstones and how to learn about
 tags: ["gallstones", "genetics", "health"]
 date: 2023-10-05
 luogo: New York
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

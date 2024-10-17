@@ -4,7 +4,7 @@ description: Uncover the genetic magic behind cheek dimples and how they might r
 tags: ["post", "genetics", "traits"]
 date: 2023-10-05
 luogo: Kings Landing
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

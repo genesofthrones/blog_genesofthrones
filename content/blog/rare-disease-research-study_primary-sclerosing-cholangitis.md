@@ -4,7 +4,7 @@ description: Get involved and help improve lives with the 23andMe research study
 tags: ["post", "health", "genetics", "research"]
 date: 2023-11-01
 luogo: Internet
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

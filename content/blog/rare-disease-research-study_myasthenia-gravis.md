@@ -4,7 +4,7 @@ description: Join the fight against myasthenia gravis and help shape the future 
 tags: ["post", "genetics", "health"]
 date: 2023-10-10
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

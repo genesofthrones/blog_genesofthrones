@@ -4,7 +4,7 @@ description: Sometimes, even in the world of genetics, too much can be too much.
 tags: ["post", "technology", "genetics"]
 date: 2024-06-15
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

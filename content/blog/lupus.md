@@ -4,7 +4,7 @@ description: Unravel the mysteries of Lupus through genetic research. Find out h
 tags: ["post", "personal", "health", "research"]
 date: 2023-10-19
 luogo: Anywhere with Wi-Fi
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

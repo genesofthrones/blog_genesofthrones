@@ -4,7 +4,7 @@ description: Discover the genetic connections to misophonia and how your DNA cou
 tags: ["misophonia", "genetics", "23andme", "traits"]  
 date: 2023-10-06  
 luogo: Online  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

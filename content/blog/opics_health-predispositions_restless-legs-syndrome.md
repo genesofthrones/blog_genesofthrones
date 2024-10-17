@@ -4,7 +4,7 @@ description: Discover the genetic elements behind Restless Legs Syndrome and how
 tags: ["genetics", "health", "RLS"]
 date: 2023-10-10
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

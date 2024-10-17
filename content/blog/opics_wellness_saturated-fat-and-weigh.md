@@ -4,7 +4,7 @@ description: A humorous take on the challenges of digital limits and how they re
 tags: ["post", "tech", "humor"]
 date: 2024-06-25
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

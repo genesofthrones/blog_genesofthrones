@@ -4,7 +4,7 @@ description: Discover the genetic link to that funky asparagus smell in your uri
 tags: ["post", "genetics", "traits"]
 date: 2023-10-05
 luogo: Genoa
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

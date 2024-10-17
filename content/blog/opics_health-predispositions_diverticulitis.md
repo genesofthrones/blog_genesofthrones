@@ -4,7 +4,7 @@ description: Exploring the genetic influences behind diverticulitis and how 23an
 tags: ["health", "genetics", "genetic testing"]
 date: 2023-10-02
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

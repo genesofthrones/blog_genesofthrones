@@ -4,7 +4,7 @@ description: Understanding BRCA genes and the importance of genetic testing in c
 tags: ["genetics", "health", "BRCA"]
 date: 2023-10-15
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

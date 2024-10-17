@@ -4,7 +4,7 @@ description: Explore the quirky genetic trait that leads some to sneeze in the s
 tags: ["post", "personal", "genetics"]
 date: 2023-10-05
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

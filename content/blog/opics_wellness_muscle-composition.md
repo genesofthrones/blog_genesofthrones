@@ -4,7 +4,7 @@ description: A humorous exploration of how even genetic powers can be limited—
 tags: ["post", "personal", "tech regulations"]
 date: 2024-05-16
 luogo: A random table in a royal tavern
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

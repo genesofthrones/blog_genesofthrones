@@ -4,7 +4,7 @@ description: Unraveling the connection between genetics and body weight.
 tags: ["post", "personal"]
 date: 2023-10-02
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

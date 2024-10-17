@@ -4,7 +4,7 @@ description: Exploring the genetics behind that fiery mane!
 tags: ["genetics", "traits", "red hair"]
 date: 2023-10-11
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

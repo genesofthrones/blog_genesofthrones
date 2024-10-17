@@ -4,7 +4,7 @@ description: Exploring Age-Related Macular Degeneration through the lens of pers
 tags: ["AMD", "genetics", "health"]
 date: 2023-10-12
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

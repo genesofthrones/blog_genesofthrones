@@ -4,7 +4,7 @@ description: Discover the ins and outs of Salla disease and how genetic testing 
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

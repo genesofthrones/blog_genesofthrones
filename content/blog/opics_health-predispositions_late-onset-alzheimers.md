@@ -4,7 +4,7 @@ description: Exploring the connection between genetics and Alzheimer's disease, 
 tags: ["health", "genetics"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

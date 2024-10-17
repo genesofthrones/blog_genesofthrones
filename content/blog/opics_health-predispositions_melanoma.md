@@ -4,7 +4,7 @@ description: Exploring the genetic aspects of melanoma and how testing can help 
 tags: ["post", "health", "genetics"]
 date: 2023-10-08
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

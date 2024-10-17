@@ -5,7 +5,7 @@ description: Explore whether triglyceride levels are influenced by genetics and 
 tags: ["health", "genetics", "triglycerides", "23andMe"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

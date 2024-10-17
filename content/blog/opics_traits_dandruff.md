@@ -4,7 +4,7 @@ description: Discover how genetics link to dandruff. Spoiler: it’s not just ab
 tags: ["post", "personal"]
 date: 2023-11-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Learn about ARSACS, a rare genetic condition, and how 23andMe can h
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-02
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

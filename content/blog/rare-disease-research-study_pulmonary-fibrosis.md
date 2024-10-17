@@ -4,7 +4,7 @@ description: Explore how rate limits in the digital realm can teach us about pow
 tags: ["post", "tech", "humor"]
 date: 2024-06-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

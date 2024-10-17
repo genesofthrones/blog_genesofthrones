@@ -4,7 +4,7 @@ description: Dive into the groundbreaking 23andMe study that aims to unravel the
 tags: ["genetics", "health", "research", "systemic-sclerosis"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Uncover the genetic factors behind PCOS and how 23andMe can change 
 tags: ["PCOS", "Genetics", "Health"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

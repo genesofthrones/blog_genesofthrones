@@ -4,7 +4,7 @@ description: Exploring the genetic factors behind your baby's hair at birth and 
 tags: ["post", "genetics", "newborns"]  
 date: 2023-10-04  
 luogo: Anytown  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

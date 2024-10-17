@@ -4,7 +4,7 @@ description: Discover how even the most powerful houses of Genoria encounter lim
 tags: ["post", "genetics", "personal"]
 date: 2024-05-25
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Understanding the pitfalls of overextending your research in the ge
 tags: ["post", "genetics", "technology"]
 date: 2024-05-16
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

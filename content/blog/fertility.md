@@ -4,7 +4,7 @@ description: Unleash the power of your DNA and help understand how genetics infl
 tags: ["fertility", "genetics", "23andMe", "study"]
 date: 2021-10-15
 luogo: Inflatable Castle of Rosethorn
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

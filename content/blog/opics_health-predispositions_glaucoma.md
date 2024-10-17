@@ -4,7 +4,7 @@ description: Discover how genetics play a role in glaucoma and how 23andMe can h
 tags: ["health", "genetics", "glaucoma", "23andMe"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

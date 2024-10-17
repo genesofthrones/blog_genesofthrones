@@ -4,7 +4,7 @@ description: Discover how understanding your genetics can transform your wellnes
 tags: ["wellness", "genetics", "health"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

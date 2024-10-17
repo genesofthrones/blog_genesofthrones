@@ -5,7 +5,7 @@ description: Discover how genetics play a role in asthma and how genetic testing
 tags: ["health", "genetics", "asthma"]
 date: 2023-10-24
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

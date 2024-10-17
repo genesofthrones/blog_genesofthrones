@@ -4,7 +4,7 @@ description: A deep dive into MCAD deficiency and how personal genomics can help
 tags: ["post", "health", "genetics"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

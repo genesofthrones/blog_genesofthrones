@@ -4,7 +4,7 @@ description: Discover how your genes and lifestyle can influence your battle wit
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-08
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

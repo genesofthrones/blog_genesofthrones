@@ -4,7 +4,7 @@ description: Dive into the genetic aspects of psoriasis and how the 23andMe app 
 tags: ["health", "genes", "psoriasis"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

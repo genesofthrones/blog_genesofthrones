@@ -4,7 +4,7 @@ description: Discover the genetic factors behind Hashimoto's disease and learn h
 tags: ["post", "health", "personal genomics"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

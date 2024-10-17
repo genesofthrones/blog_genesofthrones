@@ -4,7 +4,7 @@ description: A humorous take on the limits we face, both in genetics and in tech
 tags: ["post", "humor", "technology"]
 date: 2024-05-16
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

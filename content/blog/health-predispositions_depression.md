@@ -4,7 +4,7 @@ description: Exploring depression, its symptoms, and how genetics plays a role; 
 tags: ["post", "mental health"]
 date: 2023-09-20
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

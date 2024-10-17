@@ -4,7 +4,7 @@ description: Discover the intriguing world of Sjögren-Larsson Syndrome, its gen
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-05
 luogo: King's Landing
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

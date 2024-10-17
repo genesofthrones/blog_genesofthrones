@@ -4,7 +4,7 @@ description: Exploring eczema's genetic roots, its types, causes, and how 23andM
 tags: ["post", "health", "genetics"]
 date: 2023-10-12
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

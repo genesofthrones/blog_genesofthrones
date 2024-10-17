@@ -4,7 +4,7 @@ description: Exploring the role of genetics in Nonalcoholic Fatty Liver Disease 
 tags: ["health", "genetics", "personal genomics"]
 date: 2023-10-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Discover the ins and outs of cat allergies, their genetic links, an
 tags: ["health", "genetics", "wellness"]
 date: 2023-10-06
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

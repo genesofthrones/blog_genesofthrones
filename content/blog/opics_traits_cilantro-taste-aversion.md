@@ -5,7 +5,7 @@ description: Exploring the genetic reasons behind cilantro taste aversion.
 tags: ["post", "food", "genetics"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

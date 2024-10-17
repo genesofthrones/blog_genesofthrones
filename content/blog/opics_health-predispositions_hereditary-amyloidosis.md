@@ -4,7 +4,7 @@ description: Exploring the importance of balance and moderation, both in genetic
 tags: ["post", "technology"]
 date: 2024-05-25
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

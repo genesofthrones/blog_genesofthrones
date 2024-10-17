@@ -4,7 +4,7 @@ description: Learn about Canavan Disease, its genetic implications, and how to u
 tags: ["post", "genetics", "health"]
 date: 2023-10-04
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

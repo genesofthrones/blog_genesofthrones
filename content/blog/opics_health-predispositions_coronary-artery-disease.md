@@ -4,7 +4,7 @@ description: Understanding the importance of pacing yourself in the world of gen
 tags: ["post", "tech", "personal"]
 date: 2024-05-16
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: A look into the connection between genetics and rosacea, how geneti
 tags: ["rosacea", "genetics", "health"]  
 date: 2023-10-09  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---  
 

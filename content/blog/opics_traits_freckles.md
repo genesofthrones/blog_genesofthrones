@@ -4,7 +4,7 @@ description: Explore the genetic factors behind freckles and how they relate to 
 tags: ["post", "personal", "genetics"]  
 date: 2023-10-05  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

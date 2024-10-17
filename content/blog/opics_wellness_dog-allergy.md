@@ -4,7 +4,7 @@ description: Discover the ins and outs of dog allergies, their genetic links, an
 tags: ["dog allergies", "genetics", "health"]
 date: 2023-10-12
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

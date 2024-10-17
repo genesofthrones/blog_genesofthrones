@@ -5,7 +5,7 @@ description: Navigating the complexities of genetic testing and understanding th
 tags: ["post", "genes", "genomics"]
 date: 2024-05-16
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

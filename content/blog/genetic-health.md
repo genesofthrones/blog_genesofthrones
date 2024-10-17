@@ -4,7 +4,7 @@ description: Discover the importance of genetic health risk reports and how they
 tags: ["post", "health", "23andMe"]
 date: 2023-10-12
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

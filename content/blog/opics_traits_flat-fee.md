@@ -4,7 +4,7 @@ description: Let's take a stroll through the genetic landscape of flat feet.
 tags: ["genetics", "health", "personal traits"]  
 date: 2023-10-07  
 luogo: King’s Landing  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/flat-feet-and-genetics.html"  
 ---
 

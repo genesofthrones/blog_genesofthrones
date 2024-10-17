@@ -4,7 +4,7 @@ description: A deep dive into the recently closed representation study and why y
 tags: ["research", "23andMe", "sarcoidosis", "genetics"]
 date: 2023-10-04
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

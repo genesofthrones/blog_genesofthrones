@@ -4,7 +4,7 @@ description: Discover how genetics play a role in hair photobleaching, and why s
 tags: ["post", "health", "genetics"]
 date: 2023-10-31
 luogo: Genoa
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Understanding Tay-Sachs Disease and how genetic testing can help.
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

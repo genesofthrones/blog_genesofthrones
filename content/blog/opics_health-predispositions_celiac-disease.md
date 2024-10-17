@@ -4,7 +4,7 @@ description: Discover how genetics can contribute to celiac disease and how 23an
 tags: ["health", "genetics", "celiac disease"]
 date: 2023-10-14
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

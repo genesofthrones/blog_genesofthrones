@@ -4,7 +4,7 @@ description: Exploring the connection between genetics and LDL cholesterol level
 tags: ["health", "genetics", "cholesterol", "personal"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

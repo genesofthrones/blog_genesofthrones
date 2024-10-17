@@ -4,7 +4,7 @@ description: Discover more about MUTYH-Associated Polyposis and how your DNA cou
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-25
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

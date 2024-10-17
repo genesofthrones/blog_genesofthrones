@@ -4,7 +4,7 @@ description: Discover how our quest for genetic knowledge can sometimes hit a wa
 tags: ["post", "genetics", "technology"]
 date: 2024-05-17
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

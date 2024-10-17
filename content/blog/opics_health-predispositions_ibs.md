@@ -4,7 +4,7 @@ description: Let's chat about irritable bowel syndrome, its possible genetic lin
 tags: ["health", "genetics", "IBS"]
 date: 2023-10-02
 luogo: Anywhere but the restroom
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

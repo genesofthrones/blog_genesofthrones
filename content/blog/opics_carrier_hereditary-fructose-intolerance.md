@@ -4,7 +4,7 @@ description: Discover the genetic underpinnings of hereditary fructose intoleran
 tags: ["genetics", "health", "fructose"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

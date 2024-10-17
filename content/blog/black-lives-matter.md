@@ -4,7 +4,7 @@ description: A tongue-in-cheek look at the unexpected challenges of rate limitin
 tags: ["post", "technology", "humor"]
 date: 2024-05-18
 luogo: King's Landing
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

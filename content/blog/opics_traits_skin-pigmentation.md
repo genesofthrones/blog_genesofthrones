@@ -4,7 +4,7 @@ description: Ever wondered what gives your skin its unique hue? Dive into the ge
 tags: ["post", "genetics", "skin pigmentation"]
 date: 2023-10-12
 luogo: Westeros (just kidding, it's an imaginary medieval location)
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

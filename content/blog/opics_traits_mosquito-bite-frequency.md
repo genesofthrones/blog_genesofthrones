@@ -4,7 +4,7 @@ description: Discover why mosquitoes seem to favor certain people and how geneti
 tags: ["genetics", "mosquitoes", "health"]
 date: 2023-10-11
 luogo: The Great Outdoors
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

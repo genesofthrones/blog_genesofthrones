@@ -4,7 +4,7 @@ description: Discover how 23andMe is transforming sarcoma research through genet
 tags: ["post", "health", "research"]
 date: 2023-10-18
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

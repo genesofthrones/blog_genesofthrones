@@ -4,7 +4,7 @@ description: Delving into the complexities of Nijmegen breakage syndrome and how
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Discover the genetic link to deep sleep and its impact on your rest
 tags: ["post", "personal", "sleep", "genetics"]
 date: 2023-10-19
 luogo: Anywhere your dreams take you
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Unraveling the genetic links to motion sickness and how you can exp
 tags: ["health", "genetics", "personal"]
 date: 2023-10-05
 luogo: Westlands
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

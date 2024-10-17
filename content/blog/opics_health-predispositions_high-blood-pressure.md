@@ -4,7 +4,7 @@ description: Understanding the genetic factors behind high blood pressure.
 tags: ["health", "genetics", "hypertension"]
 date: 2023-10-20
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

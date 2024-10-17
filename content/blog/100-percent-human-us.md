@@ -4,7 +4,7 @@ description: Explore how 23andMe is leveraging our shared DNA to support human r
 tags: ["post", "personal", "human-rights"]
 date: 2023-06-20
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

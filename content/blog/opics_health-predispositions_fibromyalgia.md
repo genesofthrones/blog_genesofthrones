@@ -4,7 +4,7 @@ description: Delving into the genetic aspects of fibromyalgia and how apps like 
 tags: ["health", "fibromyalgia", "genetics"]
 date: 2023-10-09
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

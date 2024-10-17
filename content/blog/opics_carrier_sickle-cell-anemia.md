@@ -4,7 +4,7 @@ description: An exploration of sickle cell anemia, its genetic causes, and how y
 tags: ["genetics", "sickle cell anemia", "23andMe", "health"]
 date: 2023-10-13
 luogo: Curious Kingdom
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

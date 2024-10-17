@@ -4,7 +4,7 @@ description: Exploring genetic traits in our lives and what the GenePlaza apps h
 tags: ["post", "personal"]
 date: 2024-05-20
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

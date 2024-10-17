@@ -4,7 +4,7 @@ description: A closer look at how your DNA might affect your health and some ins
 tags: ["post", "health", "genetics"]
 date: 2023-10-01
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

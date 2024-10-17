@@ -4,7 +4,7 @@ description: A deep dive into the genetic factors of preeclampsia and how you mi
 tags: ["post", "health", "genetics", "preeclampsia"]
 date: 2023-10-20
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

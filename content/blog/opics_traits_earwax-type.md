@@ -4,7 +4,7 @@ description: Discover the genetics behind earwax types and what your genetic cod
 tags: ["earwax", "genetics", "23andme"]
 date: 2023-10-13
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

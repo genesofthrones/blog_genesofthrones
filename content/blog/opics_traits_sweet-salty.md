@@ -4,7 +4,7 @@ description: Discover the genetic basis of your sweet vs. salty snack preference
 tags: ["nutrition", "personal genomics"]
 date: 2023-10-11
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

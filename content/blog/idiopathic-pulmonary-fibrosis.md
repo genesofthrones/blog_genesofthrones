@@ -4,7 +4,7 @@ description: Dive into the world of genetic research with 23andMe's study on Idi
 tags: ["post", "health", "genetics"]
 date: 2023-10-07
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

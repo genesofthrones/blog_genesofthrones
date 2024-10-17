@@ -4,7 +4,7 @@ description: Exploring the mysterious world of Leigh Syndrome and how 23andMe ca
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-12
 luogo: Montreal
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Understanding your carrier status can provide insights into inherit
 tags: ["post", "health", "genetics"]
 date: 2023-10-05
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

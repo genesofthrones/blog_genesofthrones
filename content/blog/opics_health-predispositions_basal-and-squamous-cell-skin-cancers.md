@@ -4,7 +4,7 @@ description: Exploring the genetic links to basal and squamous cell carcinomas, 
 tags: ["skin cancer", "genetics", "health"]
 date: 2023-10-11
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

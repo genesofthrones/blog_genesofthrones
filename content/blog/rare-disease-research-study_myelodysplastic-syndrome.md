@@ -4,7 +4,7 @@ description: Join 23andMe’s effort to research myelodysplastic syndrome and di
 tags: ["post", "health", "genetics"]
 date: 2023-10-10 
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

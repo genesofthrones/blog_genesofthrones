@@ -4,7 +4,7 @@ description: Discover how your genetics might be influencing your caffeine consu
 tags: ["post", "wellness", "genetics", "caffeine"]
 date: 2023-10-01
 luogo: Cortland
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

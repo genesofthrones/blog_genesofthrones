@@ -4,7 +4,7 @@ description: Explore the genetics behind your hair color and discover how 23andM
 tags: ["genetics", "hair color", "23andMe"]
 date: 2023-10-25
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

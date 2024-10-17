@@ -4,7 +4,7 @@ description: Dive into the rare genetic condition known as familial dysautonomia
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-05
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

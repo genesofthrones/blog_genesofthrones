@@ -4,7 +4,7 @@ description: A deep dive into the genetics behind eye color and its ancestral si
 tags: ["genetics", "eye color", "23andMe"]
 date: 2023-10-23
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

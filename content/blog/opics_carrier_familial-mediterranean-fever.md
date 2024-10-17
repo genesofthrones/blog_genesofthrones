@@ -4,7 +4,7 @@ description: Discover the genetic nuances of Familial Mediterranean Fever (FMF) 
 tags: ["genetics", "health", "23andMe"]  
 date: 2023-10-19  
 luogo: Genoria  
-layout: article.njk  
+#layout: article.njk  
 permalink: "blog/{{ title | slugify }}.html"  
 ---
 

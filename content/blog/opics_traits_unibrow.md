@@ -4,7 +4,7 @@ description: A deep dive into the genetic science behind unibrows and how they c
 tags: ["genetics", "eyebrows"]
 date: 2021-06-20
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

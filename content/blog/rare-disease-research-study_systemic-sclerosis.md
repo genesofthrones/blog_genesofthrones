@@ -4,7 +4,7 @@ description: Discover how you can contribute to systemic sclerosis research and 
 tags: ["post", "health", "genetics"]
 date: 2023-10-16
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

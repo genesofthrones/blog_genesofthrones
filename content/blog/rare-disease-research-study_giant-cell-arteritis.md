@@ -4,7 +4,7 @@ description: Explore how your genetics can aid research on rare diseases, specif
 tags: ["post", "genetic research", "rare diseases"]
 date: 2023-10-15
 luogo: Online
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

@@ -4,7 +4,7 @@ description: Discover how your DNA can lead you to exciting travel experiences a
 tags: ["post", "travel", "DNA"]
 date: 2023-10-09
 luogo: Your Imagination
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

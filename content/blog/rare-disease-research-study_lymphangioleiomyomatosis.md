@@ -4,7 +4,7 @@ description: Discover how you can contribute to rare disease research through 23
 tags: ["post", "health", "genetics"]
 date: 2023-10-24
 luogo: Blog-Post Location
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

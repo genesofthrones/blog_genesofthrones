@@ -4,7 +4,7 @@ description: Exploring the genetic roots of Familial Hypercholesterolemia and th
 tags: ["health", "genetics", "familial hypercholesterolemia"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

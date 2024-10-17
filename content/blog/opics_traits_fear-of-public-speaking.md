@@ -4,7 +4,7 @@ description: A humorous dive into how genetics plays a role in our fear of publi
 tags: ["post", "genetics", "public speaking"]
 date: 2023-10-05
 luogo: Kings Landing
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

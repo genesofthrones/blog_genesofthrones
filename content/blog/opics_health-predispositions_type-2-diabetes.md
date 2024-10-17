@@ -4,7 +4,7 @@ description: Understanding the role of genetics in type 2 diabetes, how genetic 
 tags: ["health", "genetics"]
 date: 2023-10-18
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

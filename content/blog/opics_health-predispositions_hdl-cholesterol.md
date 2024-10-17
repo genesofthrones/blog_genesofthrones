@@ -4,7 +4,7 @@ description: Explore the connection between genetics and HDL cholesterol levels,
 tags: ["health", "genetics", "HDL cholesterol"]
 date: 2023-10-10
 luogo: Kingdom of Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

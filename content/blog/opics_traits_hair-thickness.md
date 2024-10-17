@@ -4,7 +4,7 @@ description: Dive into the science of hair thickness and genetics! Learn what ma
 tags: ["genetics", "hair thickness", "23andMe"]
 date: 2023-10-23
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

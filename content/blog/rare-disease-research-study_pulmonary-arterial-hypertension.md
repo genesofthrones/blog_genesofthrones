@@ -4,7 +4,7 @@ description: Discover how you can contribute to groundbreaking research in rare 
 tags: ["post", "research", "genetics"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

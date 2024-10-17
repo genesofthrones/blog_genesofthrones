@@ -4,7 +4,7 @@ description: Discover the connection between genetics and Hereditary Hemochromat
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

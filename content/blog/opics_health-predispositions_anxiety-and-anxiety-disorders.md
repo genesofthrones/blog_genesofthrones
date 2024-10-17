@@ -4,7 +4,7 @@ description: A deep dive into the genetic components of anxiety and how 23andMe 
 tags: ["post", "health", "mental health"]
 date: 2023-10-23
 luogo: Westeros
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

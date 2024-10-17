@@ -4,7 +4,7 @@ description: Explore the ins and outs of Tyrosinemia Type I, its genetics, and h
 tags: ["post", "genetics", "health"]
 date: 2023-10-10
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 

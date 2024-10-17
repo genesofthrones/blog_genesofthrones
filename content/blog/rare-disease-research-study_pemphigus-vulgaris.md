@@ -4,7 +4,7 @@ description: Are you ready to be a part of groundbreaking research on rare disea
 tags: ["post", "genetics", "health"]
 date: 2023-10-03
 luogo: Genoria
-layout: article.njk
+#layout: article.njk
 permalink: "blog/{{ title | slugify }}.html"
 ---
 
