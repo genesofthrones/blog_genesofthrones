@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Thick Hair Genetics  What Influences Hair Thickness? - 23andMe</title>
+		<meta name="description" content="Dive into the science of hair thickness and genetics! Learn what makes your hair thick (or thin) and how you can explore it further with 23andMe.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Genes Of Thrones Blog	">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Genes Of Thrones Blog	">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Genes Of Thrones Blog	</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Thick Hair Genetics  What Influences Hair Thickness? - 23andMe</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-23">23 October 2023</time></li>
+	<li><a href="/tags/genetics/" class="post-tag">genetics</a>, </li>
+	<li><a href="/tags/hair-thickness/" class="post-tag">hair thickness</a>, </li>
+	<li><a href="/tags/23andme/" class="post-tag">23andMe</a></li>
+</ul>
+
+<h2 id="through-thick-and-thin-hair-thickness-and-genetics" tabindex="-1">Through Thick and Thin: Hair Thickness &amp; Genetics <a class="header-anchor" href="#through-thick-and-thin-hair-thickness-and-genetics">#</a></h2>
+<p>By now, you might already know whether you have thick hair. Maybe you've been known to snap a brush handle or two when pulling it through your hair. But did you know that individual hair strands come in different sizes, and some people have thicker strands than others? Through thick and thin, your genes influence hundreds of your traits, and hair thickness is one of them.</p>
+<h3 id="how-it-works" tabindex="-1">How it Works <a class="header-anchor" href="#how-it-works">#</a></h3>
+<p>Hair follicles come in different shapes and sizes, affecting hair texture and width. Some folks have wider follicles—and therefore thicker hair strands—than others. While genetics are a major player in whether your hair looks like a luscious lion's mane or more like a bedraggled broom, don’t forget that hormones and age are also tossing their hats into the ring.</p>
+<h3 id="the-genetic-link" tabindex="-1">The Genetic Link <a class="header-anchor" href="#the-genetic-link">#</a></h3>
+<p>So, what causes the differences in our precious follicles? Science suggests that there are many genes at play, but one of the heavy hitters is the <strong>EDAR</strong> gene, which influences hair follicle development. You might say that the EDAR gene is the star player in the Hair Thickness Championship!</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2021/07/hair_thickness.5aaf04c57b2e.png" alt="Thick vs. Thin Hair Follicles"></p>
+<h3 id="did-you-know" tabindex="-1">Did You Know? <a class="header-anchor" href="#did-you-know">#</a></h3>
+<p>If you're of East Asian descent, you'll likely find that you have thicker strands of hair compared to your friends of African or European descent. Think of it as a hair-related game of genetics, where some players are just naturally winning!</p>
+<h3 id="explore-more" tabindex="-1">Explore More <a class="header-anchor" href="#explore-more">#</a></h3>
+<p>Curious to see what your genes have to say about your strands? Well, why not investigate further with <strong>23andMe's Health + Ancestry Service</strong>? Order a kit and find out whether your DNA predicts you’re likely to be the owner of thick or thin hair. Who knows, maybe you’ll discover that royal lineage that explains why your mane is reminiscent of Jon Snow’s glorious locks!</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2022/03/HA-Kit-Image-1.png" alt="23andMe Health + Ancestry Service Kit"></p>
+<h3 id="the-geneplaza-connection" tabindex="-1">The GenePlaza Connection <a class="header-anchor" href="#the-geneplaza-connection">#</a></h3>
+<p>Speaking of exploring your genes, if you're intrigued by the tales of lineage in the kingdom of Genoria and want to understand your personal genetic makeup deeper, check out the <a href="https://www.GenePlaza.com/app-store">GenePlaza App Store</a>! Whether you're on a quest for health insights or craving a deeper understanding of your ancestry, the apps in their arsenal can help to unveil the genetic mysteries not just of hair thickness, but countless other traits.</p>
+<p>And remember, just like in the kingdom's battle for the throne, knowing your genetic backstory might just give you that edge you need to claim your rightful place—whether it's for glorious hair or just knowing how you get those pesky curls!</p>
+<hr>
+<p><strong>References:</strong></p>
+<ol>
+<li>23andMe Blog (2018, October 5). “23andMe Adds Four New Trait Reports.” Retrieved October 31, 2018, from <a href="https://blog.23andme.com/health-traits/23andme-adds-four-new-trait-reports/">link</a>.</li>
+<li>Fessing MY et al. (2006). “Involvement of the Edar signaling in the control of hair follicle involution (catagen).” Am J Pathol. 169(6):2075-84. <a href="https://www.ncbi.nlm.nih.gov/pubmed/17148670">Link</a></li>
+<li>Fujimoto A et al. (2008). “A scan for genetic determinants of human hair morphology: EDAR is associated with Asian hair thickness.” Hum Mol Genet. 17(6):835-43. <a href="https://www.ncbi.nlm.nih.gov/pubmed/18065779">Link</a></li>
+<li>And more! (Seriously, the hair history books are overflowing with this stuff!)</li>
+</ol>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/23andme-rare-disease-research-study-could-you-be-the-one-to-change-the-game.html">23andMe Rare Disease Research Study - Could You Be the One to Change the Game?</a></li><li>Next: <a href="/blog/is-asthma-genetic-genetic-testing-for-asthma-23andme.html">Is Asthma Genetic? Genetic Testing for Asthma - 23andMe</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/blog/thick-hair-genetics-what-influences-hair-thickness-23andme.html` was built on 2024-10-17T11:55:02.018Z -->
+	</body>
+</html>

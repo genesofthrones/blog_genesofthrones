@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Salla Disease  Genetics and More - 23andMe</title>
+		<meta name="description" content="Discover the ins and outs of Salla disease and how genetic testing can help.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Genes Of Thrones Blog	">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Genes Of Thrones Blog	">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Genes Of Thrones Blog	</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Salla Disease  Genetics and More - 23andMe</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-05">05 October 2023</time></li>
+	<li><a href="/tags/health/" class="post-tag">health</a>, </li>
+	<li><a href="/tags/genetics/" class="post-tag">genetics</a>, </li>
+	<li><a href="/tags/23andme/" class="post-tag">23andMe</a></li>
+</ul>
+
+<h2 id="let-s-talk-about-salla-disease" tabindex="-1">Let's Talk About Salla Disease <a class="header-anchor" href="#let-s-talk-about-salla-disease">#</a></h2>
+<h3 id="what-is-salla-disease" tabindex="-1">What is Salla Disease? <a class="header-anchor" href="#what-is-salla-disease">#</a></h3>
+<p>Salla Disease, or as the cool kids call it, free sialic acid storage disease, is a rare genetic disorder that tends to crash the party uninvited. It’s the kind of guest that brings along muscle tone loss, coordination issues, impaired growth, intellectual disability, and the occasional seizure. Yikes! To actually have Salla Disease, a person needs to inherit two variants in the SLC17A5 gene. If you've only got one, don’t worry too much—you’re simply a carrier, not cursed by the gloomy fate of this condition. Still, it means you might pass that variant down to future kiddos.</p>
+<h3 id="the-genetics-behind-salla-disease" tabindex="-1">The Genetics Behind Salla Disease <a class="header-anchor" href="#the-genetics-behind-salla-disease">#</a></h3>
+<p>Now, let’s break down the science part. Salla disease is triggered by some mischievous variants in the SLC17A5 gene. This gene plays a vital role by providing the instructions to make a protein called sialin. Think of sialin as a bouncer at the club (body)—its job is to keep sialic acid from piling up in those little lysosomal compartments that are responsible for breaking stuff down. But sometimes, those variants pool up the sialic acid like it’s an all-you-can-eat buffet, resulting in problems galore. 🥳</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2022/01/Screen-Shot-2022-01-24-at-2.11.59-PM-1024x596.png" alt="SLC17A5 Gene"></p>
+<h3 id="what-are-the-symptoms-of-salla-disease" tabindex="-1">What Are the Symptoms of Salla Disease? <a class="header-anchor" href="#what-are-the-symptoms-of-salla-disease">#</a></h3>
+<p>Symptoms of Salla disease can come crashing in during infancy or childhood, often leaving a trail of intellectual disability, muscle tone loss, and that oh-so-fun experience of seizures. Bring an extra bag of chips because it might be a long ride!</p>
+<h3 id="did-you-know" tabindex="-1">Did You Know? <a class="header-anchor" href="#did-you-know">#</a></h3>
+<p>This bummer of a condition is notably more common in folks of Finnish and Swedish descent. So, if that's your ancestry, keep reading—this is pertinent stuff!</p>
+<h3 id="explore-more" tabindex="-1">Explore More <a class="header-anchor" href="#explore-more">#</a></h3>
+<p>If you’re feeling a bit concerned or just plain curious about your genetics, 23andMe has got your back with their Salla Disease Carrier Status report. This nifty tool can help determine if you’re a carrier for Salla disease. All you need to do is send in your sample—no medieval blood oaths required. Just a little spit will do! 🚀</p>
+<p>23andMe tests for one specific variant in the SLC17A5 gene linked to Salla disease, and keep in mind, folks from Finnish and Swedish backgrounds will find the report especially useful. But even if you get a zero on the variant detection scoreboard, you still might be a carrier. So, it's like genetic roulette—fun!</p>
+<p>This Salla Disease Carrier Status report is part of the 23andMe Health + Ancestry Service, because who wouldn't want to know a bit more about their lineage while they’re at it?</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2022/03/HA-Kit-Image-1.png" alt="Health + Ancestry Service Kit"></p>
+<h3 id="a-final-note" tabindex="-1">A Final Note <a class="header-anchor" href="#a-final-note">#</a></h3>
+<p>Before you dive headfirst into genetic testing, just remember that while these carrier reports can provide insight into your genetic status, they don’t tell you if you’ve got two copies of any genetic variant, nor do they forecast the health of your unborn spawn. It’s all about understanding if you’re a carrier and not necessarily about painting a doom-and-gloom future.</p>
+<p>For more important information and limitations regarding this testing service, check out <a href="https://www.23andme.com/test-info_">23andMe's official site</a>.</p>
+<p>So, whether you're from House Helix or just someone with a penchant for genetic wisdom, staying informed is always in style!</p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/a-gene-tastic-opportunity-join-the-23andme-pulmonary-arterial-hypertension-study.html">A Gene-tastic Opportunity  Join the 23andMe Pulmonary Arterial Hypertension Study</a></li><li>Next: <a href="/blog/sjoegren-larsson-syndrome-genetics-and-more-23andme.html">Sjögren-Larsson Syndrome  Genetics and More - 23andMe</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/blog/salla-disease-genetics-and-more-23andme.html` was built on 2024-10-17T11:55:02.016Z -->
+	</body>
+</html>

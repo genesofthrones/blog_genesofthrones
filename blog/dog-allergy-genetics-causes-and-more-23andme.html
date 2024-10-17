@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dog Allergy  Genetics, Causes &amp; More - 23andMe</title>
+		<meta name="description" content="Discover the ins and outs of dog allergies, their genetic links, and how 23andMe can shed light on your potential predispositions.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Genes Of Thrones Blog	">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Genes Of Thrones Blog	">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Genes Of Thrones Blog	</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Dog Allergy  Genetics, Causes &amp; More - 23andMe</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-12">12 October 2023</time></li>
+	<li><a href="/tags/dog-allergies/" class="post-tag">dog allergies</a>, </li>
+	<li><a href="/tags/genetics/" class="post-tag">genetics</a>, </li>
+	<li><a href="/tags/health/" class="post-tag">health</a></li>
+</ul>
+
+<h1 id="let-s-talk-about-dog-allergy" tabindex="-1">Let's Talk About Dog Allergy <a class="header-anchor" href="#let-s-talk-about-dog-allergy">#</a></h1>
+<p>Okay, dog lovers, let's talk about something that might put a paw print in your heart: dog allergies. Yes, as much as we adore those furballs of joy, some of us might have a sneezing fit just by being near them. So what's happening with our immune systems when we get all sniffly around dogs?</p>
+<h2 id="what-is-dog-allergy" tabindex="-1">What is Dog Allergy? <a class="header-anchor" href="#what-is-dog-allergy">#</a></h2>
+<p>An allergy is basically your immune system throwing a tantrum. It mistakes something harmless, like your fluffy friend's dander or saliva, for a villain. When it detects one of those proteins, it goes into superhero mode, trying to protect you. Spoiler alert: it results in some pretty annoying symptoms.</p>
+<h2 id="symptoms-of-dog-allergy" tabindex="-1">Symptoms of Dog Allergy <a class="header-anchor" href="#symptoms-of-dog-allergy">#</a></h2>
+<p>If you’re one of those unfortunate souls with a dog allergy, you might find yourself sneezing, sniffling, or sporting watery eyes. And let's not forget the itchy skin—nothing like feeling like you have ants in your pants due to your love for dogs! Some might even experience asthma symptoms that make breathing a bit more of a workout than it should be.</p>
+<p>So, what can you do? Well, there are lifestyle changes and medications that can help. Always nice to have options!</p>
+<p><img src="https://www.23andme.com/wp-content/uploads/sites/2/2021/07/dogallergy-story-1.088bac4757b8.png" alt="Common symptoms of dog allergy include sneezing, watery eyes, and itchy skin."></p>
+<h2 id="did-you-know" tabindex="-1">Did You Know? <a class="header-anchor" href="#did-you-know">#</a></h2>
+<p>Dog breeds often labeled “hypoallergenic” - like labradoodles or poodles - are claimed to cause fewer allergic reactions. But hold your barking horses! Research suggests that there's no significant difference in allergen levels in homes depending on the breed. If you’re hoping to buy a dog based purely on its marketing claims, you might want to consider a few baths instead. Giving your pup a scrub down a couple of times a week can actually reduce allergens, but beware—too much washing can irritate their delicate skin.</p>
+<p><img src="https://www.23andme.com/wp-content/uploads/sites/2/2021/07/dogallergy-story-2.45d8708b36a4.png" alt="Bathing your dog can help with allergy symptoms, but don't overdo it!"></p>
+<h2 id="explore-more" tabindex="-1">Explore More <a class="header-anchor" href="#explore-more">#</a></h2>
+<p>Curious if you have an increased likelihood of developing a dog allergy based on your genetics? Enter 23andMe. They’ve done the homework, analyzing over 8,000 genetic markers to estimate your risk. With the <em>Dog Allergy Wellness report</em>—part of their 23andMe+ Premium membership—you can find out if you're in the danger zone.</p>
+<p>It's like having your personal dog whisperer, without the need for a magic potion!</p>
+<p><img src="https://www.23andme.com/uploads/sites/2/20240109213029/Premium.jpg" alt="23andMe+ Premium Kit"></p>
+<p>In the kingdom of Genoria, knowing your genetic traits can help navigate your love for dogs without the sneezes. Remember, whether you’re from House Helix or House Cytos, understanding your genetics can be a game changer!</p>
+<h3 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h3>
+<p>Now that you're armed with knowledge about dog allergies, you can venture forth with confidence. Whether it's considering your next furry friend or just figuring out how to manage that pesky allergy, harnessing your genetics could be a wise move.</p>
+<p>For more information about your genetic traits and how they might affect your dog-loving lifestyle, check out <a href="https://www.23andme.com/topics/wellness/dog-allergy/">23andMe</a>! Happy (allergic-free) tail-wagging! 🐾</p>
+<h3 id="references" tabindex="-1">References <a class="header-anchor" href="#references">#</a></h3>
+<ul>
+<li>Chan SK et al. (2018). “Dog and Cat Allergies: Current State of Diagnostic Approaches and Challenges.” Allergy Asthma Immunol Res.</li>
+<li>Mayo Clinic. “Pet allergy.” Retrieved February 22, 2020.</li>
+<li>National Institute of Environmental Health Sciences. (2019). “Pet Allergens.” Retrieved February 22, 2020.</li>
+<li>Nicholas CE et al. (2011). “Dog allergen levels in homes with hypoallergenic compared with nonhypoallergenic dogs.”</li>
+<li>Salo PM et al. (2014). “Prevalence of allergic sensitization in the United States: results from the National Health and Nutrition Examination Survey (NHANES) 2005-2006.”</li>
+</ul>
+<p>🐶💙 #Dogs #Allergies #Genetics #23andMe</p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/skin-pigmentation-skin-color-genetics-and-more-23andme.html">Skin Pigmentation  Skin Color Genetics and More - 23andMe</a></li><li>Next: <a href="/blog/sickle-cell-anemia-understanding-genetics-and-carrier-information.html">Sickle Cell Anemia  Understanding Genetics and Carrier Information</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/blog/dog-allergy-genetics-causes-and-more-23andme.html` was built on 2024-10-17T11:55:02.019Z -->
+	</body>
+</html>

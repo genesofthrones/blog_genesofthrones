@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gaucher Disease Type 1  Genetics and More</title>
+		<meta name="description" content="Understanding Gaucher Disease and how it connects to personal genomics.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Genes Of Thrones Blog	">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Genes Of Thrones Blog	">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Genes Of Thrones Blog	</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Gaucher Disease Type 1  Genetics and More</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-03">03 October 2023</time></li>
+	<li><a href="/tags/personal/" class="post-tag">personal</a>, </li>
+	<li><a href="/tags/genetics/" class="post-tag">genetics</a></li>
+</ul>
+
+<h1 id="let-s-talk-about-gaucher-disease-type-1-and-genetics" tabindex="-1">Let's Talk About Gaucher Disease Type 1 &amp; Genetics <a class="header-anchor" href="#let-s-talk-about-gaucher-disease-type-1-and-genetics">#</a></h1>
+<p>Ah, genes! Those tiny bits of biological wizardry that determine whether you can roll your tongue or if you'll be the one in your family who can’t seem to tan (sorry Aunt Margaret). Today, we’re diving deep into the world of Gaucher Disease Type 1, a rare genetic condition that can cause some hefty complications. And hey, it’s not just for the science buffs – it's vital for everyone to have a grasp of their genetic makeup!</p>
+<h2 id="what-is-gaucher-disease-type-1" tabindex="-1">What Is Gaucher Disease Type 1? <a class="header-anchor" href="#what-is-gaucher-disease-type-1">#</a></h2>
+<p>Gaucher disease type 1 is less of a party crasher and more of a stealthy ninja in the world of genetic disorders. It can affect various organs by causing them to enlarge, particularly the liver and spleen, while also wreaking havoc on bone health. If you thought only double chocolate cake could lead to serious indulgences, wait until you hear this: you only need to have <em>two</em> variants in the GBA gene to have this condition. If you've got just one, congratulations, you’re a carrier. Unfortunately, being a carrier doesn’t mean you get a discount on genetic mishaps; it just means you could pass this on to your future little one (crying babies, here we come!).</p>
+<h2 id="what-causes-gaucher-disease-type-1" tabindex="-1">What Causes Gaucher Disease Type 1? <a class="header-anchor" href="#what-causes-gaucher-disease-type-1">#</a></h2>
+<p>At the core of this condition are pesky variants in the GBA gene. Think of the GBA gene like a recipe booklet; variants in the recipe mean the enzyme responsible for breaking down a fatty molecule—glucocerebroside—can’t do its job. So instead of cookies, you end up with cookie dough. And not the fun, edible kind, but the kind you definitely don’t want sitting around unhealthy levels in your organs.</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2021/07/gaucher.8a1cc9caf1d8.png" alt="Gaucher Disease"></p>
+<h2 id="when-do-symptoms-develop" tabindex="-1">When Do Symptoms Develop? <a class="header-anchor" href="#when-do-symptoms-develop">#</a></h2>
+<p>Symptoms have a sneaky way of showing up any time between childhood and adulthood and can range from mild to intense. Lucky for some, there’s a chance you might not develop any symptoms at all. But for others, brace yourself for:</p>
+<ul>
+<li>Enlargement of the liver and spleen (sounds fun, right?)</li>
+<li>Bone weakness and pain (pass the couch, please)</li>
+<li>Growth impairment (no one likes being short)</li>
+<li>Anemia and low platelet counts (what’s next, a lack of cupcakes?)</li>
+</ul>
+<h2 id="ethnicities-most-affected" tabindex="-1">Ethnicities Most Affected <a class="header-anchor" href="#ethnicities-most-affected">#</a></h2>
+<p>Gaucher disease type 1 shows a particularly strong preference for those of Ashkenazi Jewish descent, with about 1 in 18 carrying the genetic variant. So, if you've ever wondered why your family tree might have a few peculiar branches, genetic testing could spill the beans.</p>
+<h2 id="explore-more-with-23andme" tabindex="-1">Explore More with 23andMe <a class="header-anchor" href="#explore-more-with-23andme">#</a></h2>
+<p>This is where the GenePlaza App Store comes into play! To really know if you’re a carrier, you might want to check out the <em>23andMe</em> app. It’s perfect for anyone who wants to dig into their genetic code, and it specifically tests for three variants in the GBA gene linked to Gaucher disease type 1. It’s like having a genetic compass that can guide you through the dense forest of family traits.</p>
+<p>They even throw in a nifty <em>Gaucher Disease Type 1 Carrier Status report</em> when you opt for their Health + Ancestry Service. Armed with this info, you can make informed decisions. So if you’re worried about passing down traits like your questionable fashion sense or the ability to eat an entire tub of ice cream in one sitting, why not also consider which genetic variants lurk in your DNA?</p>
+<p><img src="https://pub-prd-seohub-us-west-2.s3.us-west-2.amazonaws.com/wp-content/uploads/sites/2/2022/03/HA-Kit-Image-1.png" alt="Health + Ancestry Service Kit"></p>
+<h2 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h2>
+<p>In the grand tapestry of our genetic heritage, Gaucher Disease Type 1 is a reminder of how much our genes define who we are. So, get curious! Explore those genetic nuances with tools like 23andMe from the GenePlaza App Store. After all, knowledge is power, and understanding what’s printed in your genes can help you steer the ship of family planning without hitting any rocks.</p>
+<p>Now go forth, fellow genetic explorers, and may your journey through your ancestry be as thrilling as an epic quest in a fantasy kingdom! Who knows, you might just discover that you’re not only a little bit of <em>this</em> but a whole lot of <em>that!</em></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/arsacs-genetics-and-more-23andme.html">ARSACS  Genetics and More - 23andMe</a></li><li>Next: <a href="/blog/is-triglycerides-genetic-genetic-testing-for-triglycerides-23andme.html">Is Triglycerides Genetic? Genetic Testing for Triglycerides - 23andMe</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/blog/gaucher-disease-type-1-genetics-and-more.html` was built on 2024-10-17T11:55:02.016Z -->
+	</body>
+</html>

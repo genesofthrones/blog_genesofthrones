@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>23andMe Rare Disease Research Study  Why It Matters</title>
+		<meta name="description" content="Discover how participating in genetic research can support advancements in rare disease treatments.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Genes Of Thrones Blog	">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Genes Of Thrones Blog	">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Genes Of Thrones Blog	</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>23andMe Rare Disease Research Study  Why It Matters</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-03">03 October 2023</time></li>
+	<li><a href="/tags/genetics/" class="post-tag">genetics</a>, </li>
+	<li><a href="/tags/rare-diseases/" class="post-tag">rare diseases</a></li>
+</ul>
+
+<p><img src="https://www.23andme.com/assets/svg/mrd/mrd-dna.svg" alt="Image 1"></p>
+<p>So, you might be wondering why a blog about genetic traits in a kingdom filled with noble families would be interested in a research study on rare diseases. Well, just like in Genoria where unique genetic traits can change destinies, understanding the genetics of rare diseases can significantly impact lives. Enter 23andMe's Rare Disease Research Study!</p>
+<h3 id="let-s-prioritize-rare-disease-research-together" tabindex="-1">Let's Prioritize Rare Disease Research Together <a class="header-anchor" href="#let-s-prioritize-rare-disease-research-together">#</a></h3>
+<p>Just because a disease doesn’t pop up on your social media feed daily doesn’t mean it deserves less attention. 23andMe scientists, along with participants like you, are on a quest to decode the mysteries of rare diseases that often get overshadowed by more common ailments. Together, we can change that narrative and potentially influence new treatments through your invaluable genetic data.</p>
+<h3 id="the-goal-of-the-study" tabindex="-1">The Goal of the Study <a class="header-anchor" href="#the-goal-of-the-study">#</a></h3>
+<p>The study aims to improve the lives of individuals battling rare diseases by developing new treatments. With your help, researchers can dive deep into the genetics of conditions that often don’t see the same funding and focus as their more common counterparts. Think of it like gathering an army of knowledge to conquer the troubles faced by these folks struggling with rare ailments.</p>
+<h3 id="rare-diseases-under-the-microscope" tabindex="-1">Rare Diseases Under the Microscope <a class="header-anchor" href="#rare-diseases-under-the-microscope">#</a></h3>
+<p>Are you curious about the specific rare diseases the study focuses on? Here’s a sneak-peak list of some of the conditions:</p>
+<ul>
+<li><a href="https://www.23andme.com/rare-disease-research-study/anca-associated-vasculitis/">Anti-Neutrophil Cytoplasmic Antibody Associated Vasculitis</a></li>
+<li><a href="https://www.23andme.com/rare-disease-research-study/dermatomyositis/">Dermatomyositis</a></li>
+<li><a href="https://www.23andme.com/rare-disease-research-study/essential-thrombocythemia/">Essential Thrombocythemia</a></li>
+<li><a href="https://www.23andme.com/rare-disease-research-study/pulmonary-arterial-hypertension/">Pulmonary Arterial Hypertension</a></li>
+</ul>
+<p>If you or someone you know is dealing with one of these conditions, participating in the study could be a great way to contribute to breaking new ground in research.</p>
+<h3 id="why-participate" tabindex="-1">Why Participate? <a class="header-anchor" href="#why-participate">#</a></h3>
+<p>By joining this study, you’re not just providing a saliva sample (that’s less messy than a sword fight) — you’re joining a collective effort that holds the potential to enhance how we understand and treat these rare diseases! Plus, you might get insights into your own genetics through the reports, revealing knowledge that could be as intriguing as unraveling the mysteries of royal bloodlines.</p>
+<p>Just think of the honor in being part of something that could reshape the lives of those facing these challenges. No pressure, though.</p>
+<h3 id="key-takeaways" tabindex="-1">Key Takeaways <a class="header-anchor" href="#key-takeaways">#</a></h3>
+<ol>
+<li><strong>Your DNA Matters</strong>: Your genetic information can unravel secrets that may lead to effective treatments.</li>
+<li><strong>Be a Trailblazer</strong>: By participating, you might help reveal answers for those battling rare diseases that feel isolated in their struggles.</li>
+<li><strong>Enjoy the Journey</strong>: Who knows what you may discover about your own genetic background? Those family secrets might be more thrilling than anything the royal houses are hiding!</li>
+</ol>
+<h3 id="get-involved" tabindex="-1">Get Involved <a class="header-anchor" href="#get-involved">#</a></h3>
+<p>Are you over 18 and residing in the United States? If you have a diagnosis of one of the listed rare diseases, you could be eligible to contribute to this important research. Curious to know more? Head over to <a href="https://www.23andme.com/rare-disease-research-study/">23andMe’s Rare Disease Research Study page</a> to learn about eligibility and the next steps.</p>
+<p>So, whether you’re secretly a mage of House Mendel or just a curious soul, joining in could lead to discoveries that change lives — including yours!</p>
+<p>Let’s push rare disease research forward together with a sprinkle of humor and a dash of DNA! Keep the royal intrigue alive, but remember, it’s all about the chance to make a real difference.</p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/widow-s-peak-genetics-and-more-23andme.html">Widow&#39;s Peak  Genetics and More - 23andMe</a></li><li>Next: <a href="/blog/a-gene-tastic-opportunity-join-the-23andme-pulmonary-arterial-hypertension-study.html">A Gene-tastic Opportunity  Join the 23andMe Pulmonary Arterial Hypertension Study</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- This page `/blog/23andme-rare-disease-research-study-why-it-matters.html` was built on 2024-10-17T11:55:02.019Z -->
+	</body>
+</html>
