@@ -1,5 +1,5 @@
 ---
-title: The Rate Limit: The Dark Side of Genetic Scraping
+title: The Rate Limit  The Dark Side of Genetic Scraping
 description: Understanding the pitfalls of overextending your research in the genetic realm.
 tags: ["post", "genetics", "technology"]
 date: 2024-05-16

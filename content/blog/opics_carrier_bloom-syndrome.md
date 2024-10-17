@@ -1,5 +1,5 @@
 ---
-title: Bloom Syndrome: Unpacking the Genetics Behind It
+title: Bloom Syndrome  Unpacking the Genetics Behind It
 description: Discover the ins and outs of Bloom Syndrome and how genetic testing can help.
 tags: ["post", "health", "genetics"]
 date: 2023-10-12

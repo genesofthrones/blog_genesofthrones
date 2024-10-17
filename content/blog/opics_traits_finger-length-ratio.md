@@ -1,5 +1,5 @@
 ---
-title: The Rate Limit Saga: Navigating Genomic App Overload
+title: The Rate Limit Saga  Navigating Genomic App Overload
 description: Sometimes, even in the world of genetics, too much can be too much. Let's explore how to manage genetic information without hitting that rate limit.
 tags: ["post", "technology", "genetics"]
 date: 2024-06-15

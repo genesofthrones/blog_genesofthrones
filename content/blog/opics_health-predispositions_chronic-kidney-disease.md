@@ -1,4 +1,3 @@
-```
 ---
 title: Navigating the Treacherous Waters of Rate Limits in Genoria
 description: Explore the concept of digital barriers and how they relate to our characters in Genes of Thrones.
@@ -38,4 +37,3 @@ And who knows? Your next genetic discovery could change the destiny of Genoria..
 Stay curious, keep exploring, and may your genes lead you to greatness (without the rate limits)!
 
 ---
-```

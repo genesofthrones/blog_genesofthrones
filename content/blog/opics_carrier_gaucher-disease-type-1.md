@@ -1,5 +1,5 @@
 ---
-title: Gaucher Disease Type 1: Genetics and More  
+title: Gaucher Disease Type 1  Genetics and More  
 description: Understanding Gaucher Disease and how it connects to personal genomics.  
 tags: ["post", "personal", "genetics"]  
 date: 2023-10-03  

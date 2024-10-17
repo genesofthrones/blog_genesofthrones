@@ -1,5 +1,5 @@
 ---
-title: Skin Pigmentation: Skin Color Genetics and More - 23andMe
+title: Skin Pigmentation  Skin Color Genetics and More - 23andMe
 description: Ever wondered what gives your skin its unique hue? Dive into the genetics behind skin pigmentation and find out how your ancestry plays a role.
 tags: ["post", "genetics", "skin pigmentation"]
 date: 2023-10-12

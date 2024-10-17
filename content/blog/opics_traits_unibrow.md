@@ -1,5 +1,5 @@
 ---
-title: Unibrows: Genetics and More - What’s Your Brow Say About You?
+title: Unibrows  Genetics and More - What’s Your Brow Say About You?
 description: A deep dive into the genetic science behind unibrows and how they connect to your identity.
 tags: ["genetics", "eyebrows"]
 date: 2021-06-20

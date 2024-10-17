@@ -1,5 +1,5 @@
 ---
-title: Sickle Cell Anemia: Understanding Genetics and Carrier Information 
+title: Sickle Cell Anemia  Understanding Genetics and Carrier Information 
 description: An exploration of sickle cell anemia, its genetic causes, and how you can access carrier information through the 23andMe Health + Ancestry Service.
 tags: ["genetics", "sickle cell anemia", "23andMe", "health"]
 date: 2023-10-13

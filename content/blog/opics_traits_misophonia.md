@@ -1,7 +1,7 @@
 ---
-title: Misophonia: Genetics and More - 23andMe  
+title: Misophonia  Genetics and More 
 description: Discover the genetic connections to misophonia and how your DNA could be wreaking havoc on your sanity.  
-tags: ["misophonia", "genetics", "23andme", "traits"]  
+tags: ["misophonia", "genetics", "traits"]  
 date: 2023-10-06  
 luogo: Online  
 #layout: article.njk  

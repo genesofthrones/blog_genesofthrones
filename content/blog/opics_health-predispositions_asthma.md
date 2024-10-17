@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Is Asthma Genetic? Genetic Testing for Asthma - 23andMe
 description: Discover how genetics play a role in asthma and how genetic testing can offer insights.
@@ -75,4 +74,3 @@ For more reading to expand your knowledge on asthma, check out these resources:
 - [NHLBI Health Overview](https://www.nhlbi.nih.gov/health/asthma)
 
 So, are you ready to take charge of your respiratory destiny? Who knows, the Genetic Codex might be waiting for you just around the corner – or in your DNA!
-```

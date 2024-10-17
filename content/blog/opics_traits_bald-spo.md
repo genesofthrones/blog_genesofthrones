@@ -1,6 +1,5 @@
-```markdown
 ---
-title: The GenePlaza Rate Limit: What It Means for Your Genetic Journey
+title: The GenePlaza Rate Limit  What It Means for Your Genetic Journey
 description: Navigating the complexities of genetic testing and understanding the pitfalls of rate limits.
 tags: ["post", "genes", "genomics"]
 date: 2024-05-16
@@ -36,4 +35,3 @@ So the next time you receive a Rate Limit error, just think of it as a call to m
 Now, go forth, and may your genetic exploration be free of interruptions (once this pesky error is cleared up, of course)! And of course, check that GenePlaza App Store when you're back and ready to dive into your genetic adventure.
 
 Happy exploring!
-```

@@ -1,5 +1,5 @@
 ---
-title: Cleft Chin: Genetics and More - 23andMe
+title: Cleft Chin  Genetics and More - 23andMe
 description: Discover the genetics behind cleft chins and how it reflects our ancestry.
 tags: ["genetics", "traits", "23andMe"]
 date: 2023-10-14

@@ -1,5 +1,5 @@
 ---
-title: When Genetics Hits a Rate Limit: A Tale from Genoria
+title: When Genetics Hits a Rate Limit  A Tale from Genoria
 description: A humorous exploration of how even genetic powers can be limited—sometimes by pesky technicalities!
 tags: ["post", "personal", "tech regulations"]
 date: 2024-05-16

@@ -1,5 +1,5 @@
 ---
-title: Fear of Public Speaking: Genetics and More - 23andMe
+title: Fear of Public Speaking  Genetics and More - 23andMe
 description: A humorous dive into how genetics plays a role in our fear of public speaking, plus some fun suggestions on how to tackle it.
 tags: ["post", "genetics", "public speaking"]
 date: 2023-10-05

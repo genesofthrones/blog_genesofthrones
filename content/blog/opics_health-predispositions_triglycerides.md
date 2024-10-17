@@ -1,4 +1,3 @@
-```
 ---
 title: Is Triglycerides Genetic? Genetic Testing for Triglycerides - 23andMe
 description: Explore whether triglyceride levels are influenced by genetics and how 23andMe can help you uncover your predispositions.
@@ -62,4 +61,3 @@ Alright, champions of health, it’s time to sharpen your knowledge and armor yo
 - Rygiel K. (2018). “Hypertriglyceridemia – Common Causes, Prevention and Treatment Strategies.” Curr Cardiol Rev. 14(1):67-76.
 - Sandesara PB et al. (2019). “The Forgotten Lipids: Triglycerides, Remnant Cholesterol, and Atherosclerotic Cardiovascular Disease Risk.” Endocr Rev. 40(2):537-557.
 - Simha V. (2020). “Management of hypertriglyceridemia.” BMJ 371:m3109.
-```

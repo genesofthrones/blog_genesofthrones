@@ -1,5 +1,5 @@
 ---
-title: Widow's Peak: Genetics and More - 23andMe
+title: Widow's Peak  Genetics and More - 23andMe
 description: Exploring the genetics behind the iconic widow's peak hairline and what it means for your genetic destiny.
 tags: ["genetics", "traits", "personal"]
 date: 2023-10-03

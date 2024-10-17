@@ -1,5 +1,5 @@
 ---
-title: Freckles: Genetics and Other Factors - 23andMe  
+title: Freckles  Genetics and Other Factors - 23andMe  
 description: Explore the genetic factors behind freckles and how they relate to your heritage.  
 tags: ["post", "personal", "genetics"]  
 date: 2023-10-05  

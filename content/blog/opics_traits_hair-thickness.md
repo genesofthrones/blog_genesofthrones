@@ -1,5 +1,5 @@
 ---
-title: Thick Hair Genetics: What Influences Hair Thickness? - 23andMe
+title: Thick Hair Genetics  What Influences Hair Thickness? - 23andMe
 description: Dive into the science of hair thickness and genetics! Learn what makes your hair thick (or thin) and how you can explore it further with 23andMe.
 tags: ["genetics", "hair thickness", "23andMe"]
 date: 2023-10-23

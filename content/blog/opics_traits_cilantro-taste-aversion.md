@@ -1,6 +1,5 @@
-```
 ---
-title: Cilantro Taste Aversion: Genetics and More - 23andMe
+title: Cilantro Taste Aversion  Genetics and More - 23andMe
 description: Exploring the genetic reasons behind cilantro taste aversion.
 tags: ["post", "food", "genetics"]
 date: 2023-10-10
@@ -42,4 +41,3 @@ Cilantro aversion is a fun little quirk, and while it may not deal with the thro
 Learning about your genetic makeup could give you insights into your own lineage—who knows what hidden traits might show up, perhaps even a potential knack for bioengineering like the members of House Mendel! If you want to join the quest for understanding your genetic destiny, dive into the [GenePlaza App Store](https://www.GenePlaza.com/app-store) and explore the apps that can help you navigate the genetic landscape. 
 
 Cheers to genetic mysteries, flavor preferences, and staying away from that soapy cilantro!
-```

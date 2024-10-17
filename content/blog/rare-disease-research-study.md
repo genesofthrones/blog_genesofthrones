@@ -1,5 +1,5 @@
 ---
-title: 23andMe Rare Disease Research Study: Why It Matters
+title: 23andMe Rare Disease Research Study  Why It Matters
 description: Discover how participating in genetic research can support advancements in rare disease treatments.
 tags: ["post", "genetics", "rare diseases"]
 date: 2023-10-03

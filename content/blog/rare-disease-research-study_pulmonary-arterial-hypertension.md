@@ -1,5 +1,5 @@
 ---
-title: A Gene-tastic Opportunity: Join the 23andMe Pulmonary Arterial Hypertension Study
+title: A Gene-tastic Opportunity  Join the 23andMe Pulmonary Arterial Hypertension Study
 description: Discover how you can contribute to groundbreaking research in rare diseases with 23andMe!
 tags: ["post", "research", "genetics"]
 date: 2023-10-03

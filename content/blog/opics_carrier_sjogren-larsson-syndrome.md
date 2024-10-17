@@ -1,5 +1,5 @@
 ---
-title: Sjögren-Larsson Syndrome: Genetics and More - 23andMe
+title: Sjögren-Larsson Syndrome  Genetics and More - 23andMe
 description: Discover the intriguing world of Sjögren-Larsson Syndrome, its genetic basis, and how 23andMe can help you understand your carrier status.
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-05

@@ -1,5 +1,5 @@
 ---
-title: Unlocking Genetic Mysteries: What Can We Learn from the Kingdom of Genoria?
+title: Unlocking Genetic Mysteries  What Can We Learn from the Kingdom of Genoria?
 description: Exploring genetic traits in our lives and what the GenePlaza apps have to offer 
 tags: ["post", "personal"]
 date: 2024-05-20

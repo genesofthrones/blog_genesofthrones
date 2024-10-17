@@ -1,5 +1,5 @@
 ---
-title: Rate Limits and Royal Rivalries: What Happens When the Kingdom of Genoria Hits a Wall
+title: Rate Limits and Royal Rivalries  What Happens When the Kingdom of Genoria Hits a Wall
 description: A humorous take on the limits we face, both in genetics and in tech. Sometimes even a noble house needs a timeout!
 tags: ["post", "humor", "technology"]
 date: 2024-05-16

@@ -1,5 +1,5 @@
 ---
-title: The Plight of the Rate Limit: A Lesson in Patience from Genoria
+title: The Plight of the Rate Limit  A Lesson in Patience from Genoria
 description: Discover how even the most powerful houses of Genoria encounter limits and learn about some of the GenePlaza apps that can help you make the most of your genetic journey.
 tags: ["post", "genetics", "personal"]
 date: 2024-05-25

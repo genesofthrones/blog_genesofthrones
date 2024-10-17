@@ -1,5 +1,5 @@
 ---
-title: Tyrosinemia Type I: Genetics and More | 23andMe
+title: Tyrosinemia Type I  Genetics and More | 23andMe
 description: Explore the ins and outs of Tyrosinemia Type I, its genetics, and how 23andMe can help you understand your carrier status!
 tags: ["post", "genetics", "health"]
 date: 2023-10-10

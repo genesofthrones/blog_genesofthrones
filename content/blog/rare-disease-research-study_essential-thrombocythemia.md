@@ -1,6 +1,6 @@
 ---
 title: 23andMe Rare Disease Research Study - Could You Be the One to Change the Game?
-description: *Join us in the fight against essential thrombocythemia! Your genetics could help shape the future of treatments.*
+description: Join us in the fight against essential thrombocythemia! Your genetics could help shape the future of treatments.
 tags: ["post", "genetics", "health"]
 date: 2023-10-19
 luogo: Genoria

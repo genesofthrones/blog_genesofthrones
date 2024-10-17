@@ -1,5 +1,5 @@
 ---
-title: Matching a Musical Pitch: Genetics and More - 23andMe
+title: Matching a Musical Pitch  Genetics and More - 23andMe
 description: Discover the link between genetics and your musical abilities. Can your DNA help you hit the right notes?
 tags: ["music", "genetics", "traits"]
 date: 2023-10-12

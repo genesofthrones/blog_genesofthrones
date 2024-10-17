@@ -1,5 +1,5 @@
 ---
-title: Salla Disease: Genetics and More - 23andMe
+title: Salla Disease  Genetics and More - 23andMe
 description: Discover the ins and outs of Salla disease and how genetic testing can help.
 tags: ["health", "genetics", "23andMe"]
 date: 2023-10-05

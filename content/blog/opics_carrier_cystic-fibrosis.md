@@ -1,5 +1,5 @@
 ---
-title: Cystic Fibrosis: Genetics and More - 23andMe  
+title: Cystic Fibrosis  Genetics and More - 23andMe  
 description: Exploring cystic fibrosis, its genetic implications, and how 23andMe can help you understand your carrier status.  
 tags: ["post", "health", "genetics"]  
 date: 2023-10-06  

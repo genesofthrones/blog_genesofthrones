@@ -1,6 +1,6 @@
 ---
 title: Dandruff & Genetics - Why Our Scalps Don't Always Behave
-description: Discover how genetics link to dandruff. Spoiler: it’s not just about shampoo!
+description: Discover how genetics link to dandruff. Spoiler it’s not just about shampoo!
 tags: ["post", "personal"]
 date: 2023-11-01
 luogo: Genoria

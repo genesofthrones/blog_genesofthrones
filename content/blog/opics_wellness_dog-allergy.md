@@ -1,5 +1,5 @@
 ---
-title: Dog Allergy: Genetics, Causes & More - 23andMe
+title: Dog Allergy  Genetics, Causes & More - 23andMe
 description: Discover the ins and outs of dog allergies, their genetic links, and how 23andMe can shed light on your potential predispositions.
 tags: ["dog allergies", "genetics", "health"]
 date: 2023-10-12

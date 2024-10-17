@@ -1,5 +1,5 @@
 ---
-title: Cheek Dimples: Genetics and More - 23andMe
+title: Cheek Dimples  Genetics and More - 23andMe
 description: Uncover the genetic magic behind cheek dimples and how they might reveal a bit more about you than just an adorable smile.
 tags: ["post", "genetics", "traits"]
 date: 2023-10-05

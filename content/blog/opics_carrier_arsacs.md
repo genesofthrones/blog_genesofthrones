@@ -1,5 +1,5 @@
 ---
-title: ARSACS: Genetics and More - 23andMe
+title: ARSACS  Genetics and More - 23andMe
 description: Learn about ARSACS, a rare genetic condition, and how 23andMe can help you understand your genetic heritage.
 tags: ["genetics", "health", "23andMe"]
 date: 2023-10-02
